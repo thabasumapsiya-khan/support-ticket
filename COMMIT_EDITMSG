@@ -1,0 +1,22 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch main
+#
+# Initial commit
+#
+# Changes to be committed:
+#	new file:   .gitignore
+#	new file:   README.md
+#	new file:   agent.py
+#	new file:   app.py
+#	new file:   models.py
+#	new file:   prompts.py
+#	new file:   requirements.txt
+#	new file:   static/script.js
+#	new file:   static/style.css
+#	new file:   templates/index.html
+#	new file:   tests/test_ticket_persistence.py
+#	new file:   utils.py
+#
