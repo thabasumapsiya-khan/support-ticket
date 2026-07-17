@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Support Ticket Triage Agent</title>
+    <link rel="stylesheet" href="/static/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <section class="card">
+        <h1>AI Support Ticket Triage Agent</h1>
+
+        <label for="subject">Subject</label>
+        <input id="subject" type="text" placeholder="Enter ticket subject" />
+
+        <label for="body">Description</label>
+        <textarea id="body" rows="8" placeholder="Describe the issue"></textarea>
+
+        <button id="analyze-ticket">Analyze Ticket</button>
+
+        <h2>Result</h2>
+        <div id="result-box" class="result-box">
+          <p><strong>Category:</strong> -</p>
+          <p><strong>Urgency:</strong> -</p>
+          <p><strong>Confidence:</strong> -</p>
+          <p><strong>Assigned Team:</strong> -</p>
+          <p><strong>Reason:</strong> -</p>
+        </div>
+      </section>
+
+      <section class="card batch-card">
+        <h2>Batch Ticket Analysis</h2>
+
+        <label for="batch-file">Choose JSON File</label>
+        <input id="batch-file" type="file" accept="application/json" />
+
+        <button id="analyze-batch">Analyze Batch</button>
+
+        <div id="batch-results" class="batch-results"></div>
+      </section>
+
+      <section class="card">
+        <h2>Previous Tickets</h2>
+        <button id="load-previous-tickets">Load Previous Tickets</button>
+        <div id="previous-tickets" class="previous-tickets">
+          <p class="empty-state">No tickets have been processed yet.</p>
+        </div>
+      </section>
+    </div>
+
+    <script src="/static/script.js"></script>
+  </body>
+</html>
