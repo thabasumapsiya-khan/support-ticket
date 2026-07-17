@@ -1,0 +1,46 @@
+[
+  {
+    "id": "be48f38d-6dac-49e6-9836-e5b6a129b4ad",
+    "timestamp": "2026-07-16T15:11:06.909606+00:00",
+    "subject": "I am unable to add items into the cart",
+    "body": "Even after i login and logged out from the application multiple times i am not able to add items into the cart.",
+    "category": "Technical Issue",
+    "urgency": "Medium",
+    "confidence": 0.9,
+    "team": "Technical Support",
+    "reason": "Customer is unable to perform a core functionality"
+  },
+  {
+    "id": "637c1b51-f8f8-4f03-b8d2-02cd57d445f0",
+    "timestamp": "2026-07-16T15:16:07.274989+00:00",
+    "subject": "I am unable to add items into the cart",
+    "body": "Even after i login and logged out from the application multiple times i am not able to add items into the cart.",
+    "category": "Technical Issue",
+    "urgency": "Medium",
+    "confidence": 0.95,
+    "team": "Technical Support",
+    "reason": "Customer is unable to perform a core functionality of the application"
+  },
+  {
+    "id": "47181b62-40e7-40d3-9bc2-7d5e1bdb73b5",
+    "timestamp": "2026-07-16T15:17:20.049667+00:00",
+    "subject": "I am unable to add items into the cart",
+    "body": "Even after i login and logged out from the application multiple times i am not able to add items into the cart.",
+    "category": "Technical Issue",
+    "urgency": "Medium",
+    "confidence": 0.95,
+    "team": "Technical Support",
+    "reason": "Customer is unable to perform a core functionality of the application"
+  },
+  {
+    "id": "56e24d45-7a24-4df9-b8c5-ad73d1a6ca46",
+    "timestamp": "2026-07-16T15:17:21.544074+00:00",
+    "subject": "I am unable to add items into the cart",
+    "body": "Even after i login and logged out from the application multiple times i am not able to add items into the cart.",
+    "category": "Technical Issue",
+    "urgency": "Medium",
+    "confidence": 0.9,
+    "team": "Technical Support",
+    "reason": "Customer is unable to perform a core functionality of the application"
+  }
+]
